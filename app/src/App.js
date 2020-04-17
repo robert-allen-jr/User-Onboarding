@@ -1,12 +1,13 @@
 import React from 'react';
-import Form  from './components/Form.js'
+import ValidForm  from './components/ValidForm.js'
 import logo from './logo.svg';
 import './App.css';
+import axios from 'axios'
 
 function App() {
   return (
     <div className="App">
-      <Form></Form>
+      <ValidForm></ValidForm>
     </div>
   );
 }
